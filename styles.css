@@ -1,0 +1,60 @@
+body{
+    
+    font-family: "Cormorant", serif;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 30px;
+    
+
+}
+.page-logo-title{
+    font-weight: 200;
+    font-style: italic;
+    font-size: 30px;
+    line-height: 20px;
+    letter-spacing: -3%;
+    color: black;
+    text-transform: uppercase; /* hepsini büyük yapar yazının */
+}
+header{
+    background-color:white;
+}
+
+section{
+    color: chartreuse;
+}
+.oneSection{
+    color:crimson;
+}
+.oneSection p{
+    font-size: 12px;
+}
+.secondSection{
+    color: chocolate;
+}
+footer{
+    color: cyan;
+}
+/* nav ul li{
+    background-color: ;
+}
+nav ol li{
+    background-color:;
+} */
+.page-menu-list a {
+    text-decoration: none; /* alt çizgiyi siler */
+    color: black;
+    font-weight: 200;
+    font-size: 30px;
+}
+.page-menu-list li{
+    list-style: none; /* liste yanı simgeyi siler */
+    color: black;
+}
+.page-menu-list a:hover{ /* mause üzerine geldiğinde ne olacaği orneğin renk değişecek */
+    color: rgb(56, 165, 42);
+}
+.social-media{
+    width: 24px;
+    height: 24px;
+}
